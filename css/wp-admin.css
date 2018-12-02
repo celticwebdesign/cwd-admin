@@ -1,0 +1,85 @@
+
+    /*admin screens*/
+    body.wp-admin table.wp-list-table tr.status-draft {
+        opacity: 0.3;
+    }
+
+
+    #contextual-help-link-wrap {
+        display: none !important;
+    }
+    /*admin screens*/
+
+
+
+    /* General admin styling */
+    /*#adminmenuback,
+    #adminmenuwrap {
+        background: #00adef;
+    }
+    #adminmenu,
+    #adminmenu .wp-has-current-submenu .wp-submenu {
+    background-color: #00adef;
+    }
+    #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
+        background: #0073aa;
+    }*/
+    /* General admin styling */
+
+
+
+
+    /*Login screen*/
+    body.login {
+        background-color: #252525 !important;
+        /*background-image: url('.get_stylesheet_directory_uri().'/img/skeleton.gif) !important;*/
+        background-position: 0 0 !important;
+        background-repeat: no-repeat !important;
+        background-size: cover;
+    }
+    #login {
+        padding: 5% 0 0;
+    }
+    .login form .input,
+    .login form input[type="checkbox"],
+    .login input[type="text"] {
+        border: 1px solid #aaa;
+    }
+    .login form {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+        border: 1px solid #888;
+        border-radius: 3px;
+        box-shadow: 0 1px 3px rgba(125, 125, 125, 0.13);
+        margin-top:40px;
+    }
+    .login label {
+        color: #fff;
+    }
+    .login #backtoblog a,
+    .login #nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .login #backtoblog a:hover,
+    .login #nav a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+    .login h1 {
+        width:      362px;
+        height:     78px;
+        left:       -32px;
+        position:   relative;
+        margin:     0 0 30px 10px;
+    }
+    .login h1 a {
+        background-size:    auto;
+        width:              362px;
+        height:             78px;
+        margin:             0 auto 15px;
+    }
+    .login h1 a {
+        background:url(../img/admin-logo-penryn-dental-practice-362-78-1.png) no-repeat 0 0 transparent !important;
+        background-size: 100% !important;
+    }
+    /*Login screen*/
