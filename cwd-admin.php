@@ -258,15 +258,29 @@ License: GPLv2 or later
 
     function send_wp_mail_from($email)
     {
-        return "enquiries@penryndentalpractice.com";
+        return "Email Address";
     }
     add_filter("wp_mail_from", "send_wp_mail_from");
 
     function send_wp_mail_from_name($email)
     {
-        return "Penryn Dental Practice";
+        return "Company Name";
     }
     add_filter("wp_mail_from_name", "send_wp_mail_from_name");
+
+
+
+
+
+
+
+
+
+    // https://www.wpfaster.org/code/how-to-remove-emoji-styles-scripts-wordpress
+    remove_action( 'wp_head', 'print_emoji_detection_script', 7 ); 
+    remove_action( 'admin_print_scripts', 'print_emoji_detection_script' ); 
+    remove_action( 'wp_print_styles', 'print_emoji_styles' ); 
+    remove_action( 'admin_print_styles', 'print_emoji_styles' );
 
 
 
